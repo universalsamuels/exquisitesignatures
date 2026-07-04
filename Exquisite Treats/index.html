@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exquisite Signatures-Treats | Fresh Fruit Salads & Parfaits</title>
+    <meta name="description" content="Premium fruit salads and creamy parfaits crafted to satisfy every craving. Your Cravings, Our Signature. Order now via WhatsApp.">
+    <meta name="keywords" content="fruit salad, parfait, healthy treats, fresh fruits, Lagos, Nigeria, Exquisite Signatures">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ==================== LOADING SCREEN ==================== -->
+    <div class="loading-screen" id="loadingScreen">
+        <div class="loader-content">
+            <div class="loader-logo">
+                <!-- LOGO: Place your logo.jpeg in the same folder as this HTML file -->
+                <img src="logo.jpeg" alt="Exquisite Signatures">
+            </div>
+            <div class="loader-bar-container">
+                <div class="loader-bar"></div>
+            </div>
+            <p class="loader-text">Loading freshness...</p>
+        </div>
+    </div>
+
+    <!-- ==================== NAVIGATION ==================== -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#home" class="nav-logo">
+                <!-- LOGO: Same folder, named logo.jpeg -->
+                <img src="logo.jpeg" alt="Exquisite Signatures-Treats">
+            </a>
+            
+            <div class="nav-menu" id="navMenu">
+                <a href="#home" class="nav-link"><i class="fas fa-home"></i> Home</a>
+                <a href="#about" class="nav-link"><i class="fas fa-user"></i> About</a>
+                <a href="#menu" class="nav-link"><i class="fas fa-utensils"></i> Menu</a>
+                <a href="#why-us" class="nav-link"><i class="fas fa-star"></i> Why Choose Us</a>
+                <a href="#gallery" class="nav-link"><i class="fas fa-images"></i> Gallery</a>
+                <a href="#contact" class="nav-link"><i class="fas fa-envelope"></i> Contact</a>
+            </div>
+
+            <div class="nav-actions">
+                <button class="theme-toggle" id="themeToggle" aria-label="Toggle Dark Mode">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <a href="https://wa.me/2348060964189" class="btn btn-primary order-btn" target="_blank" rel="noopener">
+                    <i class="fab fa-whatsapp"></i> Order Now
+                </a>
+                <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle Menu">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ==================== HERO SECTION ==================== -->
+    <section id="home" class="hero">
+        <div class="floating-fruits">
+            <div class="fruit fruit-1">🍓</div>
+            <div class="fruit fruit-2">🍊</div>
+            <div class="fruit fruit-3">🥭</div>
+            <div class="fruit fruit-4">🍇</div>
+        </div>
+        
+        <div class="container hero-container">
+            <div class="hero-content scroll-animate fade-up">
+                <h1 class="hero-title">Fresh. Delicious. Unforgettable.</h1>
+                <p class="hero-subtitle">Premium fruit salads and creamy parfaits crafted to satisfy every craving.</p>
+                <p class="hero-slogan">"Your Cravings, Our Signature."</p>
+                <div class="hero-buttons">
+                    <a href="https://wa.me/2348060964189" class="btn btn-primary btn-lg" target="_blank" rel="noopener">
+                        <i class="fab fa-whatsapp"></i> Order on WhatsApp
+                    </a>
+                    <a href="#menu" class="btn btn-outline btn-lg">View Menu</a>
+                </div>
+            </div>
+            
+            <div class="hero-image-wrapper scroll-animate fade-up delay-1">
+                <div class="hero-image-container">
+                    <!-- 
+                        HERO IMAGE PLACEHOLDER
+                        STEP 1: Put your best product photo in the same folder or an "images/" folder
+                        STEP 2: Update the src path below
+                        STEP 3: Remove the <div class="placeholder-overlay"> below
+                        RECOMMENDED SIZE: 600×750px (Portrait/4:5 ratio)
+                        SHAPE: Rounded rectangle with 28px radius, slight 3D depth shadow
+                    -->
+                    <img src="images/hero-product.jpg" alt="Exquisite Signatures Fresh Treat" class="hero-image">
+                    <div class="placeholder-overlay">
+                        <i class="fas fa-image"></i>
+                        <span>
+                            <strong>Hero Image</strong><br>
+                            Add Your Best Product Photo<br>
+                            <em>Recommended: 600×750px, Portrait</em>
+                        </span>
+                    </div>
+                </div>
+                <div class="hero-image-badge">
+                    <i class="fas fa-leaf"></i>
+                    <span>100% Fresh</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== ABOUT SECTION ==================== -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header scroll-animate fade-up">
+                <span class="section-tag">Our Story</span>
+                <h2 class="section-title">About Us</h2>
+            </div>
+            
+            <div class="about-grid">
+                <div class="about-images scroll-animate fade-right">
+                    <div class="about-image-main">
+                        <!-- 
+                            FOUNDER IMAGE
+                            This uses your uploaded business owner photo.
+                            Place "business-owner.jpeg" in the same folder as this HTML file.
+                            RECOMMENDED SIZE: 450×550px (Portrait)
+                            SHAPE: Rounded rectangle (24px radius) with decorative ring border
+                        -->
+                        <img src="business-owner.jpeg" alt="Founder - Exquisite Signatures-Treats" class="founder-image">
+                        <div class="image-ring"></div>
+                    </div>
+                    <div class="about-image-accent"></div>
+                </div>
+                
+                <div class="about-content scroll-animate fade-left">
+                    <p class="about-text">
+                        At Exquisite Signatures-Treats, every bowl is crafted with care, freshness, and passion. We believe healthy treats should be exciting, colorful, and incredibly satisfying. From juicy fruit salads bursting with flavor to rich, creamy parfaits layered to perfection, every order is prepared to leave you wanting another bite. We don't just serve treats—we create moments of refreshment, happiness, and indulgence that keep our customers coming back.
+                    </p>
+                    
+                    <div class="stats-grid">
+                        <div class="stat-card scroll-animate fade-up delay-1">
+                            <span class="stat-number" data-count="100">0</span><span class="stat-suffix">+</span>
+                            <span class="stat-label">Happy Customers</span>
+                        </div>
+                        <div class="stat-card scroll-animate fade-up delay-2">
+                            <span class="stat-text">Daily</span>
+                            <span class="stat-label">Fresh Ingredients</span>
+                        </div>
+                        <div class="stat-card scroll-animate fade-up delay-3">
+                            <span class="stat-text">Fast</span>
+                            <span class="stat-label">Order Processing</span>
+                        </div>
+                        <div class="stat-card scroll-animate fade-up delay-4">
+                            <span class="stat-text">Premium</span>
+                            <span class="stat-label">Quality Service</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== MENU SECTION ==================== -->
+    <section id="menu" class="menu">
+        <div class="container">
+            <div class="section-header scroll-animate fade-up">
+                <span class="section-tag">Our Menu</span>
+                <h2 class="section-title">Delicious Offerings</h2>
+                <p class="section-subtitle">Handcrafted with love, served with freshness</p>
+            </div>
+            
+            <div class="menu-grid">
+                <!-- FRUIT SALAD CARD -->
+                <div class="menu-card scroll-animate fade-up delay-1">
+                    <div class="menu-card-image">
+                        <!-- 
+                            MENU FRUIT SALAD IMAGE
+                            STEP 1: Add your best fruit salad photo
+                            STEP 2: Update src path
+                            STEP 3: Remove placeholder div below
+                            RECOMMENDED SIZE: 500×400px (Landscape/4:3 ratio)
+                            SHAPE: Rounded top corners (20px), image fills card top
+                            ANIMATION: Hover lifts card, image scales 1.05x
+                        -->
+                        <img src="images/menu-fruit-salad.jpeg" alt="Fresh Fruit Salad" class="menu-img">
+                        <div class="placeholder-overlay">
+                            <i class="fas fa-image"></i>
+                            <span>
+                                <strong>Fruit Salad Photo</strong><br>
+                                <em>Recommended: 500×400px, Landscape</em>
+                            </span>
+                        </div>
+                        <div class="menu-card-badge">Popular</div>
+                    </div>
+                    <div class="menu-card-body">
+                        <h3 class="menu-card-title">Fruit Salad</h3>
+                        <p class="menu-card-desc">Freshly selected fruits mixed into a refreshing and nutritious delight.</p>
+                        <div class="menu-card-footer">
+                            <span class="menu-card-price">From ₦1,500</span>
+                            <a href="https://wa.me/2348060964189?text=Hi!%20I%20want%20to%20order%20a%20Fruit%20Salad" class="btn btn-primary btn-sm" target="_blank" rel="noopener">
+                                <i class="fab fa-whatsapp"></i> Order
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- PARFAIT CARD -->
+                <div class="menu-card scroll-animate fade-up delay-2">
+                    <div class="menu-card-image">
+                        <!-- 
+                            MENU PARFAIT IMAGE
+                            STEP 1: Add your best parfait photo
+                            STEP 2: Update src path
+                            STEP 3: Remove placeholder div below
+                            RECOMMENDED SIZE: 500×400px (Landscape/4:3 ratio)
+                            SHAPE: Rounded top corners (20px), image fills card top
+                            ANIMATION: Hover lifts card, image scales 1.05x
+                        -->
+                        <img src="images/menu-parfait.jpeg" alt="Creamy Parfait" class="menu-img">
+                        <div class="placeholder-overlay">
+                            <i class="fas fa-image"></i>
+                            <span>
+                                <strong>Parfait Photo</strong><br>
+                                <em>Recommended: 500×400px, Landscape</em>
+                            </span>
+                        </div>
+                        <div class="menu-card-badge">Best Seller</div>
+                    </div>
+                    <div class="menu-card-body">
+                        <h3 class="menu-card-title">Parfait</h3>
+                        <p class="menu-card-desc">Smooth, creamy layers combined with delicious toppings for the perfect treat.</p>
+                        <div class="menu-card-footer">
+                            <span class="menu-card-price">From ₦2,500</span>
+                            <a href="https://wa.me/2348060964189?text=Hi!%20I%20want%20to%20order%20a%20Parfait" class="btn btn-primary btn-sm" target="_blank" rel="noopener">
+                                <i class="fab fa-whatsapp"></i> Order
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== WHY CHOOSE US ==================== -->
+    <section id="why-us" class="why-us">
+        <div class="container">
+            <div class="section-header scroll-animate fade-up">
+                <span class="section-tag">Why Us</span>
+                <h2 class="section-title">Why Choose Exquisite Signatures</h2>
+            </div>
+            
+            <div class="features-grid">
+                <div class="feature-card scroll-animate fade-up delay-1">
+                    <div class="feature-icon">
+                        <i class="fas fa-leaf"></i>
+                    </div>
+                    <h3>Fresh Ingredients</h3>
+                    <p>Only carefully selected fresh fruits and quality ingredients.</p>
+                </div>
+                
+                <div class="feature-card scroll-animate fade-up delay-2">
+                    <div class="feature-icon">
+                        <i class="fas fa-shield-virus"></i>
+                    </div>
+                    <h3>Prepared Hygienically</h3>
+                    <p>Every order is made with cleanliness and safety in mind.</p>
+                </div>
+                
+                <div class="feature-card scroll-animate fade-up delay-3">
+                    <div class="feature-icon">
+                        <i class="fas fa-gem"></i>
+                    </div>
+                    <h3>Affordable Luxury</h3>
+                    <p>Premium taste without premium pricing.</p>
+                </div>
+                
+                <div class="feature-card scroll-animate fade-up delay-1">
+                    <div class="feature-icon">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <h3>Fast Response</h3>
+                    <p>Quick order processing and customer support.</p>
+                </div>
+                
+                <div class="feature-card scroll-animate fade-up delay-2">
+                    <div class="feature-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h3>Customer Satisfaction</h3>
+                    <p>We prioritize quality and customer happiness.</p>
+                </div>
+                
+                <div class="feature-card scroll-animate fade-up delay-3">
+                    <div class="feature-icon">
+                        <i class="fas fa-hand-holding-heart"></i>
+                    </div>
+                    <h3>Made With Love</h3>
+                    <p>Every serving is prepared with care and attention.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== GALLERY SECTION ==================== -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <div class="section-header scroll-animate fade-up">
+                <span class="section-tag">Gallery</span>
+                <h2 class="section-title">Our Delicious Creations</h2>
+            </div>
+            
+            <!-- 
+                GALLERY MASONRY LAYOUT
+                8 Image Slots: 4 Fruit Salad + 4 Parfait
+                MIX OF PORTRAIT (tall) AND LANDSCAPE (wide) FOR VISUAL INTEREST
+                Each item has hover zoom + lightbox click
+            -->
+            <div class="gallery-masonry">
+                
+                <!-- FRUIT SALAD 1: TALL (Portrait recommended: 400×600px) -->
+                <div class="gallery-item gallery-item-tall scroll-animate fade-up" data-index="0">
+                    <img src="images/fruit-salad-1.jfif" alt="Fruit Salad Creation 1" loading="lazy">
+                    <div class="placeholder-overlay">
+                        <i class="fas fa-image"></i>
+                        <span><strong>Fruit Salad 1</strong><br><em>Portrait: 400×600px</em></span>
+                    </div>
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+
+                <!-- PARFAIT 1: NORMAL (Landscape recommended: 500×350px) -->
+                <div class="gallery-item scroll-animate fade-up delay-1" data-index="1">
+                    <img src="images/parfait-1.jfif" alt="Parfait Creation 1" loading="lazy">
+                    <div class="placeholder-overlay">
+                        <i class="fas fa-image"></i>
+                        <span><strong>Parfait 1</strong><br><em>Landscape: 500×350px</em></span>
+                    </div>
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+
+                <!-- FRUIT SALAD 2: WIDE (Landscape recommended: 600×400px) -->
+                <div class="gallery-item gallery-item-wide scroll-animate fade-up delay-2" data-index="2">
+                    <img src="images/fruit-salad-2.jfif" alt="Fruit Salad Creation 2" loading="lazy">
+                    <div class="placeholder-overlay">
+                        <i class="fas fa-image"></i>
+                        <span><strong>Fruit Salad 2</strong><br><em>Landscape: 600×400px</em></span>
+                    </div>
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+
+                <!-- PARFAIT 2: TALL (Portrait recommended: 400×600px) -->
+                <div class="gallery-item gallery-item-tall scroll-animate fade-up" data-index="3">
+                    <img src="images/parfait-2.jfif" alt="Parfait Creation 2" loading="lazy">
+                    <div class="placeholder-overlay">
+                        <i class="fas fa-image"></i>
+                        <span><strong>Parfait 2</strong><br><em>Portrait: 400×600px</em></span>
+                    </div>
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+
+                <!-- FRUIT SALAD 3: NORMAL (Square/Landscape: 500×400px) -->
+                <div class="gallery-item scroll-animate fade-up delay-1" data-index="4">
+                    <img src="images/fruit-salad-3.jfif" alt="Fruit Salad Creation 3" loading="lazy">
+                    <div class="placeholder-overlay">
+                        <i class="fas fa-image"></i>
+                        <span><strong>Fruit Salad 3</strong><br><em>500×400px</em></span>
+                    </div>
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+
+                <!-- PARFAIT 3: WIDE (Landscape recommended: 600×400px) -->
+                <div class="gallery-item gallery-item-wide scroll-animate fade-up delay-2" data-index="5">
+                    <img src="images/parfait-3.jfif" alt="Parfait Creation 3" loading="lazy">
+                    <div class="placeholder-overlay">
+                        <i class="fas fa-image"></i>
+                        <span><strong>Parfait 3</strong><br><em>Landscape: 600×400px</em></span>
+                    </div>
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+
+                <!-- FRUIT SALAD 4: TALL (Portrait recommended: 400×600px) -->
+                <div class="gallery-item gallery-item-tall scroll-animate fade-up" data-index="6">
+                    <img src="images/fruit-salad-4.jfif" alt="Fruit Salad Creation 4" loading="lazy">
+                    <div class="placeholder-overlay">
+                        <i class="fas fa-image"></i>
+                        <span><strong>Fruit Salad 4</strong><br><em>Portrait: 400×600px</em></span>
+                    </div>
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+
+                <!-- PARFAIT 4: NORMAL (Square/Landscape: 500×400px) -->
+                <div class="gallery-item scroll-animate fade-up delay-1" data-index="7">
+                    <img src="images/parfait-4.jfif" alt="Parfait Creation 4" loading="lazy">
+                    <div class="placeholder-overlay">
+                        <i class="fas fa-image"></i>
+                        <span><strong>Parfait 4</strong><br><em>500×400px</em></span>
+                    </div>
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== LIGHTBOX ==================== -->
+    <div class="lightbox" id="lightbox">
+        <button class="lightbox-close" id="lightboxClose" aria-label="Close lightbox">
+            <i class="fas fa-times"></i>
+        </button>
+        <button class="lightbox-nav lightbox-prev" id="lightboxPrev" aria-label="Previous image">
+            <i class="fas fa-chevron-left"></i>
+        </button>
+        <div class="lightbox-content">
+            <img src="" alt="Gallery preview" class="lightbox-image" id="lightboxImage">
+        </div>
+        <button class="lightbox-nav lightbox-next" id="lightboxNext" aria-label="Next image">
+            <i class="fas fa-chevron-right"></i>
+        </button>
+    </div>
+
+    <!-- ==================== TESTIMONIALS ==================== -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-header scroll-animate fade-up">
+                <span class="section-tag">Testimonials</span>
+                <h2 class="section-title">What Our Customers Say</h2>
+            </div>
+            
+            <div class="testimonials-grid">
+                <div class="testimonial-card scroll-animate fade-up delay-1">
+                    <div class="testimonial-stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"The fruit salad was incredibly fresh and delicious. Every bite was bursting with flavor!"</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">A</div>
+                        <span>— A Happy Customer</span>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card scroll-animate fade-up delay-2">
+                    <div class="testimonial-stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"One of the best parfaits I've ever tasted. The layers were perfect and so creamy!"</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">B</div>
+                        <span>— A Satisfied Client</span>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card scroll-animate fade-up delay-3">
+                    <div class="testimonial-stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"Fast delivery and excellent customer service. I keep coming back for more!"</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">C</div>
+                        <span>— A Regular Customer</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== CONTACT SECTION ==================== -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header scroll-animate fade-up">
+                <span class="section-tag">Contact</span>
+                <h2 class="section-title">Get In Touch</h2>
+            </div>
+            
+            <div class="contact-grid">
+                <div class="contact-info scroll-animate fade-right">
+                    <div class="phone-mockup">
+                        <div class="phone-frame">
+                            <div class="phone-notch"></div>
+                            <div class="phone-screen">
+                                <div class="chat-header">
+                                    <div class="chat-avatar">E</div>
+                                    <div class="chat-info">
+                                        <span class="chat-name">Exquisite Signatures</span>
+                                        <span class="chat-status">online</span>
+                                    </div>
+                                </div>
+                                <div class="chat-body">
+                                    <div class="chat-date">Today</div>
+                                    <div class="chat-bubble chat-received">
+                                        Hello! Welcome to Exquisite Signatures-Treats. How can we satisfy your cravings today? 🍓🥭
+                                    </div>
+                                    <div class="chat-bubble chat-sent">
+                                        Hi! I'd love to place an order for a fruit salad.
+                                    </div>
+                                    <div class="chat-bubble chat-received">
+                                        Great choice! We'd be happy to prepare that for you. What size would you prefer?
+                                    </div>
+                                </div>
+                                <div class="chat-input-bar">
+                                    <span>Type a message...</span>
+                                    <i class="fas fa-paper-plane"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-text">
+                                <span>Phone / WhatsApp</span>
+                                <strong>+234 806 096 4189</strong>
+                            </div>
+                        </div>
+                        
+                        <a href="https://wa.me/2348060964189" class="btn btn-whatsapp btn-lg" target="_blank" rel="noopener">
+                            <i class="fab fa-whatsapp"></i> Chat With Us Now
+                        </a>
+                        
+                        <div class="social-links">
+                            <a href="https://wa.me/2348060964189" class="social-link whatsapp" aria-label="WhatsApp" target="_blank" rel="noopener">
+                                <i class="fab fa-whatsapp"></i>
+                            </a>
+                            <a href="https://www.facebook.com/profile.php?id=100088694292955" class="social-link facebook" aria-label="Facebook" target="_blank" rel="noopener">
+    <i class="fab fa-facebook-f"></i>
+</a>
+<a href="https://vt.tiktok.com/ZSCbCQ9tt/" class="social-link tiktok" aria-label="TikTok" target="_blank" rel="noopener">
+    <i class="fab fa-tiktok"></i>
+</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form-wrapper scroll-animate fade-left">
+                    <form class="contact-form" id="contactForm">
+                        <h3>Send us a Message</h3>
+                        <div class="form-group">
+                            <label for="formName">Name</label>
+                            <input type="text" id="formName" name="name" placeholder="Your full name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="formPhone">Phone Number</label>
+                            <input type="tel" id="formPhone" name="phone" placeholder="Your phone number" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="formMessage">Message</label>
+                            <textarea id="formMessage" name="message" rows="4" placeholder="Tell us what you'd like to order..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">
+                            <i class="fas fa-paper-plane"></i> Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== FOOTER ==================== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <img src="logo.jpeg" alt="Exquisite Signatures" class="footer-logo">
+                    <p>Freshness you can taste. Quality you can trust.</p>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#menu">Menu</a>
+                    <a href="#gallery">Gallery</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                
+                <div class="footer-contact-info">
+                    <h4>Contact</h4>
+                    <p><i class="fas fa-phone"></i> +234 806 096 4189</p>
+                    <p><i class="fab fa-whatsapp"></i> WhatsApp Available</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+    <p> 2026 Exquisite Signatures-Treats. All rights reserved.</p>
+    <p class="footer-slogan">"Your Cravings, Our Signature."</p>
+    <p class="footer-credit">Built by <a href="https://github.com/universalsamuels" target="_blank" rel="noopener">Ebube Samuel Ibom</a></p>
+</div>
+        </div>
+    </footer>
+
+    <!-- ==================== FLOATING WHATSAPP BUTTON ==================== -->
+    <a href="https://wa.me/2348060964189" class="whatsapp-float" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+        <span class="whatsapp-tooltip">Order Now</span>
+    </a>
+
+    <!-- ==================== BACK TO TOP ==================== -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="main.js"></script>
+</body>
+</html>
